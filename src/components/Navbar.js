@@ -26,7 +26,7 @@ function Navbar() {
         <div>
             <nav className={`navbar ${navbar ? 'navbar active' : 'navbar'} `}>
                 <div className='navbar-container'>
-                    <Link className={`home-logo ${sideMenu ? "logo-active" : ""} `} to='/' onClick={closeSideMenu}> Danindra </Link>
+                    <Link className={`home-logo ${sideMenu ? "logo-active" : ""} `} to='/' onClick={closeSideMenu}> <img src='/images/flavos-putih.png' width="100%" /> </Link>
                 </div>
 
                 <ul className={sideMenu ? "active" : ""}>
